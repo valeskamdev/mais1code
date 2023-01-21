@@ -1,4 +1,4 @@
-const countSheep = number => {
+const countSheep = number =>  {
     for (let i = 1; i <= number; i++) {
          process.stdout.write(`${i} carneirinho...`); 
     }
