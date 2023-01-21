@@ -1,5 +1,5 @@
-function countSheep(number) {
-    for (var i = 1; i <= number; i++) {
+const countSheep = number => {
+    for (let i = 1; i <= number; i++) {
          process.stdout.write(`${i} carneirinho...`); 
     }
 }
