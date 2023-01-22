@@ -1,4 +1,4 @@
-function quarter(month) {
+const quarter = (month) => {
     if (month >= 1 && month <= 12) {
         if (month == 1 || month == 2 || month == 3) {
             return 1;
