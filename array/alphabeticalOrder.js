@@ -1,5 +1,14 @@
 const alphabeticalOrder = words => {
-    return words.sort();
+    for (let i = 0; i < words.length; i++) {
+        for (let j = i; j < words.length; j++) {
+            if (words[i] > words[j]) {
+                let aux = words[i];
+                words[i] = words[j];
+                words[j] = aux;
+            }
+        }
+    }
+    return words;
 }
 
 console.log(alphabeticalOrder(["Zebra", "Lontra", "Peixe", "Gato"])); // [ 'Gato', 'Lontra', 'Peixe', 'Zebra' ]
