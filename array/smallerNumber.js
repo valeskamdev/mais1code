@@ -1,4 +1,4 @@
-function findSmallestNumber(numbers) {
+const findSmallestNumber = numbers => {
     return Math.min(...numbers);
 }
 
