@@ -1,4 +1,4 @@
-function divisibleNumber(x, y, z) {
+const divisibleNumber = (x, y, z) => {
     if(x % y == 0 && x % z == 0) {
         return true;
     }
