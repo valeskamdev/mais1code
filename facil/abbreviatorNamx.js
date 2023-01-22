@@ -1,6 +1,6 @@
-function abbreviateName(name) {
-    let initials = name.split(" ").map(function(n){ return n[0].toUpperCase()});
-    return initials.join(".")
+const abbreviateName = name => {
+    let initials = name.split(" ").map(n => n[0].toUpperCase()).join(".");
+    return initials;
 }
 
 console.log(abbreviateName("Flora Walker")); //F.W
