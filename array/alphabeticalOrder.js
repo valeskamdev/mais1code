@@ -1,4 +1,4 @@
-function alphabeticalOrder(words) {
+const alphabeticalOrder = words => {
     return words.sort();
 }
 
