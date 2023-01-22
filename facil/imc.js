@@ -1,4 +1,4 @@
-function calculateIMC(weight, height) {
+const calculateIMC = (weight, height) => {
     height /= 100;
     let imc = weight / (height * height);
     return imc.toFixed(1);
