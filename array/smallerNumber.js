@@ -1,5 +1,11 @@
 const findSmallestNumber = numbers => {
-    return Math.min(...numbers);
+    let smallest = numbers[0]
+    for (let i = 1; i < numbers.length; i++) {
+        if (numbers[i] < smallest) {
+            smallest = numbers[i];
+        }
+    }
+    return smallest;
 }
 
 console.log(findSmallestNumber([35, 15, 1])); //1
