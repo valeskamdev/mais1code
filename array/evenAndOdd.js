@@ -1,6 +1,6 @@
 const evenAndOdd = array => {
-    let evenArray = array.filter(x => x % 2 === 0).sort();
-    let oddArray = array.filter(x => x % 2 !== 0).sort();
+    const evenArray = array.filter(x => x % 2 === 0).sort();
+    const oddArray = array.filter(x => x % 2 !== 0).sort();
 
     return evenArray.concat(oddArray);
 }
